@@ -128,7 +128,8 @@ void Download(char *Host)
 {
     qnode *qn;
     FILE *fp;
-    unsigned int i;   
+    unsigned int i;  
+ 
     UrlInfo url;
     HyperTable *Ht=(HyperTable *)malloc(sizeof(HyperTable));
     Ht->data=NULL;
